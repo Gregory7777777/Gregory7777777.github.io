@@ -1,82 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>The Life of Coder</title>
-  <meta charset="UTF-8">
-  <link rel="icon" type="image" href="https://code.s3.yandex.net/web-code/playlist-favicon.ico">
-  <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Карточки | Проект 1</title>
 </head>
-<body bgcolor= #eee;  background= "img/fone.jpg">
-  <header class="header">
-    <div class="overlay">
-      <h1 class="header-title">Четыре правила вёрстки</h1>
-    </div>
-  </header>
-  <section class="content">
-    <div class="card">
-      <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg">
-      <h3 class="card-title">Пустота</h3>
-      <p class="card-text">Простое правило, которое часто нарушают: ставить рядом элементы с похожим смыслом и окружать их пустым пространством. Пустота — мощное средство воздействия.</p>
-    </div>
-    <div class="card no-right-margin">
-      <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-2.jpg">
-      <h3 class="card-title">Сетка</h3>
-      <p class="card-text">Размеры элементов и расстояния между ними укладываются в гармоничную схему — её называют сеткой. Если элемент выпадает, зритель может это заметить.</p>
-    </div>
-    <div class="card">
-      <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-3.jpg">
-      <h3 class="card-title">Шрифты</h3>
-      <p class="card-text">Не больше трёх шрифтов на сайт. Один для заголовков, второй — для всех остальных текстов, третий — для выделения важных слов.</p>
-    </div><div class="card no-right-margin">
-      <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-4.jpg">
-      <h3 class="card-title">Цвета</h3>
-      <p class="card-text">Обычно на сайте два цвета: ведущий и акцентный. Подобрать удачную цветовую пару можно за счёт насмотренности или специальных инструментов.</p>
-    </div>
-      <div class="card">
-        <h1 class="card-title">The Life of</h1>
-        <h2 class="card-title">Coder</h2>    
-        <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/mountains.jpg" alt="картинка на обложке">
-        <h3 class="card-title">2021</h3>
-        <h3 class="card-title">KRAGRI</h3>
-        <p class="card-text"><a href="https://www.noisli.com" target="_blank">Плейлист</a> для беспечного занятия кодингом.</p>
-        <p class="card-text">Один раз послушал — семь раз покодил.</p>
-        <audio class="card-audio" src="гармоника.mp3" controls></audio>
-      </div>    
-      <div class="card no-right-margin">
-        <h1 class="card-title">The Life of</h1>
-        <h2 class="card-title">Coder</h2>    
-        <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/mountains.jpg" alt="картинка на обложке">
-        <h3 class="card-title">2021</h3>
-        <h3 class="card-title">KRAGRI</h3>
-        <p class="card-text"><a href="https://www.noisli.com" target="_blank">Плейлист</a> для беспечного занятия кодингом.</p>
-        <p class="card-text">Один раз послушал — семь раз покодил.</p>
-        <audio class="card-audio" src="гармоника.mp3" controls></audio>
-      </div>
-      <div class="card">
-        <h1 class="card-title">The Life of</h1>
-        <h2 class="card-title">Coder</h2>    
-        <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/mountains.jpg" alt="картинка на обложке">
-        <h3 class="card-title">2021</h3>
-        <h3 class="card-title">KRAGRI</h3>
-        <p class="card-text" ><a href="https://vk.com/kragri" target="_blank">KRAGRI</a> моя группа в вк с крутыми битами</p>
-        <p class="card-text">Один раз послушал — семь раз покодил.</p>
-        <audio class="card-audio" src="гармоника.mp3" controls></audio>
-      </div>
-      <div class="card no-right-margin">
-        <h1 class="card-title">The Life of</h1>
-        <h2 class="card-title">Coder</h2>    
-        <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/mountains.jpg" alt="картинка на обложке">
-        <h3 class="card-title">2021</h3>
-        <h3 class="card-title">KRAGRI</h3>
-        <p class="card-text"><a href="https://www.noisli.com" target="_blank">Плейлист</a> для беспечного занятия кодингом.</p>
-        <p class="card-text">Один раз послушал — семь раз покодил.</p>
-        <audio class="card-audio" src="гармоника.mp3" controls></audio>
-      </div>
-      <video class="card-video" src="Counter-Strike Global Offensive_2021.07.13-23.43.mp4" controls=""></video>
-    </div>
-  </section>
-  <footer class="footer">
-    <h4 class="footer-author">Сделано за один вечер. KRAGRI</h4>
-  </footer>
-  </body>
+<body>
+<div class="container">
+  <div
+      class="slide"
+      style="background-image: url('https://images.unsplash.com/photo-1504700610630-ac6aba3536d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');"
+  >
+    <h3>Lake of Carezza</h3>
+  </div>
+  <div
+      class="slide"
+      style="
+          background-image: url('https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80');
+        "
+  >
+    <h3>Lake Atitlán</h3>
+  </div>
+  <div
+      class="slide active"
+      style="
+          background-image: url('https://images.unsplash.com/photo-1447958374760-1ce70cf11ee3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+        "
+  >
+    <h3>Salt Creek Falls</h3>
+  </div>
+  <div
+      class="slide"
+      style="
+          background-image: url('https://images.unsplash.com/photo-1508766505-ff8c5c590939?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1152&q=80');
+        "
+  >
+    <h3>Cone Mountain</h3>
+  </div>
+  <div
+      class="slide"
+      style="
+          background-image: url('https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80');
+        "
+  >
+    <h3>El Capitan</h3>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
 </html>
